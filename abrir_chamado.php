@@ -1,7 +1,8 @@
 <?php 
   require_once "validador_acesso.php";
 ?>
-
+<script src="funcoes.js">
+  </script>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -72,7 +73,7 @@
                       </div>
 
                       <div class="col-6">
-                        <button class="btn btn-lg btn-success btn-block" type="submit">Abrir</button>
+                        <button onclick="alerta()" href="funcoes.js" class="btn btn-lg btn-success btn-block" type="submit">Abrir</button>
                       </div>
                     </div>
                   </form>
