@@ -1,4 +1,4 @@
-3<?php
+<?php
    session_start();
 
     $titulo=str_replace('#','-',$_POST['titulo']);
